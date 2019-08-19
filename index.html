@@ -2,190 +2,131 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="/css/reset.css">
+    <title>Busy Bus</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/43ab5de46f.js"></script>
+    <script src="https://use.fontawesome.com/37471687aa.js"></script>
   </head>
   <body>
     <section class="container">
-      <section class="statusbar">
-        <div class="battery">
-          <div class="batteryicon">
-            <i class="far fa-battery-full"></i>
-          </div>
-          <div class="batterylife">
-            <h4>100%</h4>
-          </div>
+      <section class="status-bar">
+        <div class="signal">
+          <i class="fa fa-signal"></i>
+        </div>
+        <div class="wireless-provider">
+          <h3>GS</h3>
+        </div>
+        <div class="wifi">
+          <i class="fa fa-wifi"></i>
         </div>
         <div class="time">
-          <h4>9:41 AM</h4>
+          <h3>9:41 AM</h3>
         </div>
-        <div class="signal">
-          <i class="fas fa-signal"></i>
-        </div>
+          <div class="battery-percentage">
+            <h3>100%</h3>
+          </div>
+          <div class="battery-icon">
+            <i class="fa fa-battery-full"></i>
+          </div>
       </section>
-      <section class="top-of-screen">
-        <div class="back">
-          <div class="backarrow">
-            <i class="fas fa-chevron-left"></i>
+      <header class="main-header">
+        <i class="fa fa-chevron-left"></i>
+        <h1>WASHINGTON AND STATE</h1>
+      </header>
+      <ul class="directions">
+        <li>EASTBOUND</li>
+          <ul class="subheadings">
+            <li>Route</li>
+            <li>Destination</li>
+            <li>Next Bus</li>
+            <li>Frequency</li>
+          </ul>
+          <div class="data">
+            <h3 class="route1">60</h3>
+            <h3 class="destination1">Randolph/<br>Harbor Dr</h3>
+            <h3 class="next-bus1">3 min</h3>
+            <h3 class="frequency1">Every 20 <br>min</h3>
+            <i class="fa fa-chevron-right"></i>
           </div>
-          <div class="backtext">
-            <h3>Back</h3>
+          <div class="data">
+            <h3 class="route2">124</h3>
+            <h3 class="destination2">Navy Pier</h3>
+            <h3 class="next-bus2">5 min</h3>
+            <h3 class="frequency2">Every 10 <br>min</h3>
+            <i class="fa fa-chevron-right"></i>
           </div>
-        </div>
-        <div class="title">
-          <h1>Washington & State</h1>
-        </div>
-      </section>
-      <section class="eastbound">
-        <div class="directiontitle">
-          <h3>Eastbound</h3>
-        </div>
-        <div class="route1">
-          <div class="routenumber1">
-            <h3>60</h3>
+        <li>NORTHBOUND</li>
+          <ul class="subheadings">
+            <li>Route</li>
+            <li>Destination</li>
+            <li>Next Bus</li>
+            <li>Frequency</li>
+          </ul>
+          <div class="data">
+            <h3 class="route2">124</h3>
+            <h3 class="destination2">Navy Pier</h3>
+            <h3 class="next-bus2">5 min</h3>
+            <h3 class="frequency2">Every 10 <br>min</h3>
+            <i class="fa fa-chevron-right"></i>
           </div>
-          <div class="destination1">
-            <h3>Randolph/Harbor Dr</h3>
+        <li>SOUTHBOUND</li>
+          <ul class="subheadings">
+            <li>Route</li>
+            <li>Destination</li>
+            <li>Next Bus</li>
+            <li>Frequency</li>
+          </ul>
+          <div class="data">
+            <h3 class="route2">J14</h3>
+            <h3 class="destination3">103rd/<br>Stony Island</h3>
+            <h3 class="next-bus2">4 min</h3>
+            <h3 class="frequency2">Every 15 <br>min</h3>
+            <i class="fa fa-chevron-right"></i>
           </div>
-          <div class="frequency1">
-            <h3>Every 20 minutes</h3>
+          <div class="data">
+            <h3 class="route2">124</h3>
+            <h3 class="destination2">Navy Pier</h3>
+            <h3 class="next-bus2">7 min</h3>
+            <h3 class="frequency2">Every 10 <br>min</h3>
+            <i class="fa fa-chevron-right"></i>
           </div>
-          <div class="rightarrow">
-            <i class="far fa-chevron-right"></i>
+        <li>REROUTE</li>
+          <ul class="subheadings">
+            <li>Route</li>
+            <li>Destination</li>
+            <li>Next Bus</li>
+          </ul>
+          <div class="data1">
+            <h3 class="route4">Jackson<br>Park<br>Express</h3>
+            <h3 class="destination4">Devon/Clark</h3>
+            <h3 class="next-bus4">7 min</h3>
+            <i class="fa fa-chevron-right"></i>
           </div>
-        </div>
-        <div class="route">
-          <div class="routenumber">
-            <h3>124</h3>
+        <li>OUT OF SERVICE</li>
+          <ul class="subheadings">
+            <li>Route</li>
+            <li>Destination</li>
+            <li>Resumes</li>
+          </ul>
+          <div class="data4">
+            <h3 class="route5">J14</h3>
+            <h3 class="destination6">103rd/<br>Stony Island</h3>
+            <h3 class="next-bus5">4 min</h3>
+            <i class="fa fa-chevron-right"></i>
           </div>
-          <div class="destination">
-            <h3>Navy Pier</h3>
+          <div class="data3">
+            <h3 class="route5">124</h3>
+            <h3 class="destination5">Navy Pier</h3>
+            <h3 class="next-bus5">7 min</h3>
+            <i class="fa fa-chevron-right"></i>
           </div>
-          <div class="frequency">
-            <h3>Every 10 minutes</h3>
+          <div class="data3">
+            <h3 class="route5">124</h3>
+            <h3 class="destination5">Navy Pier</h3>
+            <h3 class="next-bus5">7 min</h3>
+            <i class="fa fa-chevron-right"></i>
           </div>
-          <div class="rightarrow1">
-            <i class="far fa-chevron-right"></i>
-          </div>
-        </div>
-      </section>
-      <section class="northbound">
-        <div class="directiontitle1">
-          <h3>Northbound</h3>
-        </div>
-        <div class="route1">
-          <div class="routenumber1">
-            <h3>151</h3>
-          </div>
-          <div class="destination1">
-            <h3>Devon/Clark</h3>
-          </div>
-          <div class="frequency1">
-            <h3>Every 16 minutes</h3>
-          </div>
-          <div class="rightarrow">
-            <i class="far fa-chevron-right"></i>
-          </div>
-        </div>
-      </section>
-      <section class="southbound">
-        <div class="directiontitle2">
-          <h3>Southbound</h3>
-        </div>
-        <div class="route1">
-          <div class="routenumber1">
-            <h3>J14</h3>
-          </div>
-          <div class="destination1">
-            <h3>103rd/Stony Island</h3>
-          </div>
-          <div class="frequency1">
-            <h3>Every 15 minutes</h3>
-          </div>
-          <div class="rightarrow">
-            <i class="far fa-chevron-right"></i>
-          </div>
-        </div>
-        <div class="route">
-          <div class="routenumber">
-            <h3>124</h3>
-          </div>
-          <div class="destination">
-            <h3>Navy Pier</h3>
-          </div>
-          <div class="frequency">
-            <h3>Every 10 minutes</h3>
-          </div>
-          <div class="rightarrow1">
-            <i class="far fa-chevron-right"></i>
-          </div>
-        </div>
-      </section>
-      <section class="reroute">
-        <div class="directiontitle1">
-          <h3>Reroute</h3>
-        </div>
-        <div class="route1">
-          <div class="routenumber1">
-            <h3>Jackson Park Express</h3>
-          </div>
-          <div class="destination11">
-            <h3>Devon/Clark</h3>
-          </div>
-          <div class="rightarrow">
-            <i class="far fa-chevron-right"></i>
-          </div>
-        </div>
-      </section>
-      <section class="outofservice">
-        <div class="directiontitle2">
-          <h3>Out of Service</h3>
-        </div>
-        <div class="route2">
-          <div class="routenumber2">
-            <h3>4</h3>
-          </div>
-          <div class="destination2">
-            <h3>Cottage Grove</h3>
-          </div>
-          <div class="frequency2">
-            <h3>Resumes 12:10am</h3>
-          </div>
-          <div class="rightarrow2">
-            <i class="far fa-chevron-right"></i>
-          </div>
-        </div>
-        <div class="route3">
-          <div class="routenumber3">
-            <h3>20</h3>
-          </div>
-          <div class="destination3">
-            <h3>Madison</h3>
-          </div>
-          <div class="frequency3">
-            <h3>Resumes 12:10am</h3>
-          </div>
-          <div class="rightarrow1">
-            <i class="far fa-chevron-right"></i>
-          </div>
-        </div>
-        <div class="route3">
-          <div class="routenumber3">
-            <h3>157</h3>
-          </div>
-          <div class="destination3">
-            <h3>Streeterville/Taylor</h3>
-          </div>
-          <div class="frequency3">
-            <h3>Resumes 6:00am</h3>
-          </div>
-          <div class="rightarrow1">
-            <i class="far fa-chevron-right"></i>
-          </div>
-        </div>
-      </section>
+      </ul>
     </section>
   </body>
 </html>
