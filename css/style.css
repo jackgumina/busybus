@@ -45,7 +45,7 @@ body {
 .main-header {
   background-color: #007aff;
   color: #fff;
-  padding: 7% 0 12% 0;
+  padding: 7% 0 7% 0;
   font-size: 180%;
 }
 
@@ -84,116 +84,27 @@ body {
 }
 
 .data {
-  font-size: 120%;
+  font-size: 100%;
   background-color: #fff;
   padding: 7% 0% 7% 3%;
   margin: 0 2% 2% 2%;
   box-shadow: 0 2px 5px .5px grey;
 }
 
-.data h3 {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.route1 {
-  color: #007aff;
-  font-weight: bolder;
-  padding: 0 12% 0 0;
-}
-
-.destination1 {
-  padding: 0 8% 0 0;
-}
-
-.next-bus1 {
-  padding: 0 12.5% 0 0;
-}
-
-.frequency1 {
-  padding: 0 5% 0 0;
-}
-
-.route2 {
-  color: #007aff;
-  font-weight: bolder;
-  padding: 0 10% 0 0;
-}
-
-.destination2 {
-  padding: 0 9.5% 0 0;
-}
-
-.next-bus2 {
-  padding: 0 12.5% 0 0;
-}
-
-.frequency2 {
-  padding: 0 5% 0 0;
-}
-
-.destination3 {
-  padding: 0 4.5% 0 0;
-}
-
-.route4 {
-  color: #007aff;
-  font-weight: bolder;
-  padding: 0 1.5% 0 0;
-}
-
-.destination4 {
-  padding: 0 3.5% 0 0;
-}
-
-.next-bus4 {
-  padding: 0 35% 0 0;
-}
-
 .data1 {
-  font-size: 120%;
+  font-size: 100%;
   background-color: #fff;
-  padding: 5.5% 0% 5.5% 3%;
+  padding: 5.25% 0% 5.25% 3%;
   margin: 0 2% 2% 2%;
   box-shadow: 0 2px 5px .5px grey;
-}
-
-.data1 h3 {
-  display: inline-block;
-  vertical-align: middle;
 }
 
 .data2 {
   font-size: 120%;
   background-color: #fff;
-  padding: 8.5% 0% 8.5% 3%;
+  padding: 7% 0% 7% 3%;
   margin: 0 2% 2% 2%;
   box-shadow: 0 2px 5px .5px grey;
-}
-
-.data2 h3 {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.route5 {
-  color: #aeaeae;
-  font-weight: bolder;
-  padding: 0 10% 0 0;
-}
-
-.destination5 {
-  padding: 0 9.5% 0 0;
-  color: #aeaeae;
-}
-
-.next-bus5 {
-  padding: 0 35% 0 0;
-  color: #aeaeae;
-}
-
-.destination6 {
-  padding: 0 4.5% 0 0;
   color: #aeaeae;
 }
 
@@ -206,21 +117,161 @@ body {
   color: #aeaeae;
 }
 
-.data3 h3 {
+.data li {
   display: inline-block;
   vertical-align: middle;
-}
-
-.data4 {
-  font-size: 120%;
   background-color: #fff;
-  padding: 7% 0% 7% 3%;
-  margin: 0 2% 2% 2%;
-  box-shadow: 0 2px 5px .5px grey;
-  color: #aeaeae;
+  color: #000;
+  font-weight: normal;
+  font-size: 120%;
 }
 
-.data4 h3 {
+.data1 li {
   display: inline-block;
   vertical-align: middle;
+  background-color: #fff;
+  color: #000;
+  font-weight: normal;
+  font-size: 120%;
+}
+
+.data2 li {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fff;
+  color: #aeaeae;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+.data3 li {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fff;
+  color: #aeaeae;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+li.route1 {
+  color: #007aff;
+  font-weight: bolder;
+  padding: 0 12.4% 0 0;
+  vertical-align: middle;
+}
+
+li.destination1 {
+  padding: 0 7.8% 0 0;
+}
+
+li.next-bus1 {
+  padding: 0 12.5% 0 0;
+}
+
+li.frequency1 {
+  padding: 0 5% 0 0;
+}
+
+li.chevron1 {
+  padding: 0;
+}
+
+li.route2 {
+  color: #007aff;
+  font-weight: bolder;
+  padding: 0 10.4% 0 0.1%;
+}
+
+li.destination2 {
+  padding: 0 9.07% 0 0;
+}
+
+li.next-bus2 {
+  padding: 0 12.6% 0 0;
+}
+
+li.frequency2 {
+  padding: 0 5.5% 0 0;
+}
+
+li.route3 {
+  color: #007aff;
+  font-weight: bolder;
+  padding: 0 10.8% 0 0.1%;
+}
+
+li.destination3 {
+  padding: 0 3.72% 0 0;
+}
+
+li.next-bus3 {
+  padding: 0 12.4% 0 0;
+}
+
+li.frequency3 {
+  padding: 0 5.55% 0 0;
+}
+
+li.route4 {
+  color: #007aff;
+  font-weight: bolder;
+  padding: 0 10.4% 0 0.1%;
+}
+
+li.destination4 {
+  padding: 0 9.25% 0 0;
+}
+
+li.next-bus4 {
+  padding: 0 12.6% 0 0;
+}
+
+li.frequency4 {
+  padding: 0 5.55% 0 0;
+}
+
+li.route5 {
+  color: #007aff;
+  font-weight: bolder;
+  padding: 0 1% 0 0.1%;
+}
+
+li.destination5 {
+  padding: 0 4.1% 0 0;
+}
+
+li.next-bus5 {
+  padding: 0 36.2% 0 0;
+}
+
+li.frequency5 {
+  padding: 0 5.55% 0 0;
+}
+
+li.route6 {
+  color: #aeaeae;
+  font-weight: bolder;
+  padding: 0 10.5% 0 0.1%;
+}
+
+li.destination6 {
+  padding: 0 3.7% 0 0;
+}
+
+li.next-bus6 {
+  padding: 0 36% 0 0;
+}
+
+li.route7 {
+  color: #aeaeae;
+  font-weight: bolder;
+  padding: 0 10.2% 0 0.1%;
+}
+
+li.destination7 {
+  padding: 0 9.1% 0 0;
+}
+
+li.next-bus7 {
+  padding: 0 36.2% 0 0;
 }
